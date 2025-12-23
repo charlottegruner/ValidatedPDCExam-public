@@ -1,0 +1,483 @@
+{
+    "title": "Parallel & Distributed Computing Exam Question Bank",
+    "version": "0.1.0",
+    "questions": [
+        {
+            "id": 5,
+            "text": "In _________ computing a program's statements are run in order, one at a time.",
+            "topics": [
+                "parallel-computing",
+                "vocabulary"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "sequential",
+                "shared-memory",
+                "core",
+                "parallel"
+            ],
+            "correct_choice_index": 3
+        },
+        {
+            "id": 6,
+            "text": "Why is synchronization important in parallel computing?",
+            "topics": [
+                "parallel-computing",
+                "synchronization"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "To make sure memory is not overloaded",
+                "To install updates faster",
+                "To compress data during computation",
+                "To prevent conflicts when multiple processors access shared data"
+            ],
+            "correct_choice_index": 3
+        },
+        {
+            "id": 7,
+            "text": "Suppose you run a program on one core and it takes 6 minutes. Then you run it on 3 cores and it takes 3 minutes. What is the speedup?",
+            "topics": [
+                "parallel-computing",
+                "performance"
+            ],
+            "is_ordered": true,
+            "choices": [
+                "1",
+                "2",
+                "3",
+                "6",
+                "Cannot be determined from the information given",
+                "None of the above"
+            ],
+            "correct_choice_index": 1
+        },
+        {
+            "id": 10,
+            "text": "Suppose that a computational task that normally takes 60 minutes to execute can be broken up into equal parts and run in parallel on 16 different processors. About how long would it take to compute?",
+            "topics": [
+                "parallel-computing"
+            ],
+            "is_ordered": true,
+            "choices": [
+                "1 minute",
+                "4 minutes",
+                "16 minutes",
+                "16 hours"
+            ],
+            "correct_choice_index": 1
+        },
+        {
+            "id": 12,
+            "text": "What type of computing involves multiple computers solving a problem by working together over a network?",
+            "topics": [
+                "distributed-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Single-threaded computing",
+                "Distributed computing",
+                "Serial computing",
+                "Centralized computing"
+            ],
+            "correct_choice_index": 1
+        },
+        {
+            "id": 13,
+            "text": "Which of the following best describes Sequential Computing?",
+            "topics": [
+                "sequential-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Two computational tasks being run at the same time on different processors.",
+                "Computational tasks are scheduled to execute in an optimal order.",
+                "Each computational task is executed from start to finish before another task can start.",
+                "Computational tasks are assigned to different computers so they can all be run independently."
+            ],
+            "correct_choice_index": 2
+        },
+        {
+            "id": 16,
+            "text": "What is the main objective of parallel computing?",
+            "topics": [
+                "parallel-computing",
+                "performance"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Reduce power consumption",
+                "Improve computation speed by executing tasks simultaneously",
+                "Increase software complexity",
+                "Reduce the number of processors required"
+            ],
+            "correct_choice_index": 1
+        },
+        {
+            "id": 19,
+            "text": "Which of the following best illustrates **Asynchronous Computing**?",
+            "topics": [
+                "asynchronous-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Task A runs in one window while task B runs in a different window",
+                "Task A runs and once completed, then task B runs",
+                "Task A runs for a while, then pauses and allows Task B to execute, then resumes once Task B has completed",
+                "Tasks A and B run on different computers at the same time"
+            ],
+            "correct_choice_index": 2
+        },
+        {
+            "id": 20,
+            "text": "Which of the following best illustrates **Parallel Computing**?",
+            "topics": [
+                "parallel-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Task A runs on computer X while Task B runs on computer Y, once both have completed, they report their results back to computer Z",
+                "Task B runs after Task A has been completed",
+                "Task A runs on Processor X at the same time as Task B runs on Processor Y",
+                "Task A runs for a while, then pauses and allows Task B to execute, then resumes once Task B has completed"
+            ],
+            "correct_choice_index": 2
+        },
+        {
+            "id": 26,
+            "text": "Consider the following task in a program: Each element of an array stores the price for the inventory of a store.  It is necessary for the store to add 9% to the price of each item.  Is this a task that can be parallelized?",
+            "topics": [
+                "parallel-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "No, processors could access the same memory but not in this case",
+                "Yes, different processors could operate on different parts of the array at the same time",
+                "No, processors cannot share the same memory",
+                "Yes, copies of the array could be distributed to each processor"
+            ],
+            "correct_choice_index": 1
+        },
+        {
+            "id": 27,
+            "text": "Which of the following best describes a distributed system? ",
+            "topics": [
+                "distributed-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "A single computer with multiple cores",
+                "A computer with many users",
+                "A network of computers working together",
+                "A system using multiple monitors"
+            ],
+            "correct_choice_index": 2
+        },
+        {
+            "id": 29,
+            "text": "What is one major benefit of parallel computing?",
+            "topics": [
+                "parallel-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Lower electricity usage",
+                "Easier debugging",
+                "Increased computation speed",
+                "Faster data transfer speed"
+            ],
+            "correct_choice_index": 2
+        },
+        {
+            "id": 30,
+            "text": "What is an *event* in the context of event-driven programming?",
+            "topics": [
+                "asynchronous-computing",
+                "event-handling"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "A block of code that runs continuously in a loop",
+                "A specific programming language used for web-development",
+                "A signal that something has happened such as a user clicking a mouse",
+                "A type of variable used to store numerical data"
+            ],
+            "correct_choice_index": 2
+        },
+        {
+            "id": 35,
+            "text": "Which of the following best describes **Asynchronous Computing**?",
+            "topics": [
+                "asynchronous-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "A task can begin executing without waiting for other tasks to finish, and may be resumed later",
+                "Multiple tasks are executed simultaneously using multiple processors",
+                "Tasks are executed one at a time, waiting for each to finish before starting the next",
+                "All tasks must be completed in the order they were started"
+            ],
+            "correct_choice_index": 0
+        },
+        {
+            "id": 36,
+            "text": "Which of the following best describes **Parallel Computing**",
+            "topics": [
+                "parallel-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "A task is paused until all other tasks have completed",
+                "One task runs while others wait their turn to execute",
+                "Tasks are broken into smaller sub-tasks that are processed at the same time using multiple processors or cores",
+                "Tasks are executed one at a time on a single processor in a fixed sequence"
+            ],
+            "correct_choice_index": 2
+        },
+        {
+            "id": 37,
+            "text": "_______ computing is writing software that takes advantage of a multiprocessor's ability to do processing on multiple cores simultaneously.",
+            "topics": [
+                "parallel-computing",
+                "vocabulary"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Core",
+                "Parallel",
+                "Shared-memory",
+                "Sequential"
+            ],
+            "correct_choice_index": 1
+        },
+        {
+            "id": 41,
+            "text": "What is a distributed system?",
+            "topics": [
+                "distributed-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "A type of computer virus",
+                "A system with only one processor",
+                "A system with multiple CPUs sharing the same memory",
+                "A collection of independent computers that appear as a single system"
+            ],
+            "correct_choice_index": 3
+        },
+        {
+            "id": 45,
+            "text": "________ computing is when a problem is divided into smaller parts that are executed on multiple networked computers.",
+            "topics": [
+                "distributed-computing",
+                "vocabulary"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Parallel",
+                "Distributed",
+                "Multicore",
+                "Concurrent"
+            ],
+            "correct_choice_index": 1
+        },
+        {
+            "id": 46,
+            "text": "Which of the following best describes **Distributed Computing**",
+            "topics": [
+                "distributed-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Tasks run in the background without blocking the main program",
+                "A single computer with multiple cores runs multiple tasks at the same time",
+                "A single task is executed sequentially on one machine",
+                "A task is divided and executed across multiple networked computers that communicate and coordinate with each other"
+            ],
+            "correct_choice_index": 3
+        },
+        {
+            "id": 48,
+            "text": "___________ computing involves a single processor rapidly switching between tasks, giving the illusion of simultaneous execution.",
+            "topics": [
+                "concurrent-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Distributed",
+                "Shared-memory",
+                "Concurrent",
+                "Parallel"
+            ],
+            "correct_choice_index": 2
+        },
+        {
+            "id": 49,
+            "text": "Which of the following could be considered a parallel task?",
+            "topics": [
+                "parallel-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Reading a single book",
+                "Sending a series of emails",
+                "Grading multiple exams at once with different people",
+                "Typing on a keyboard"
+            ],
+            "correct_choice_index": 2
+        },
+        {
+            "id": 50,
+            "text": "Suppose we run a computational task in parallel on 32 different processors, each taking 2 minutes to run.  If we were to run the same task in serial, about how long would it take to compute?",
+            "topics": [
+                "parallel-computing",
+                "performance"
+            ],
+            "is_ordered": true,
+            "choices": [
+                "2 minutes",
+                "16 minutes",
+                "1 hour",
+                "64 hours"
+            ],
+            "correct_choice_index": 2
+        },
+        {
+            "id": 54,
+            "text": "In distributed computing, how are the computing nodes typically connected?",
+            "topics": [
+                "distributed-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Through a network connection",
+                "Using a single shared CPU",
+                "By physical proximity only",
+                "Through the same memory bus"
+            ],
+            "correct_choice_index": 0
+        },
+        {
+            "id": 57,
+            "text": "Which of the following is a challenge in distributed computing?",
+            "topics": [
+                "distributed-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Data compression",
+                "Network latency",
+                "Low memory usage",
+                "Faster processor speeds"
+            ],
+            "correct_choice_index": 1
+        },
+        {
+            "id": 58,
+            "text": "Which of the following is a common goal of parallel programming?",
+            "topics": [
+                "parallel-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "Increasing the complexity of code",
+                "Reducing the number of algorithms",
+                "Using more memory to store backups",
+                "Making computations faster by using multiple processors"
+            ],
+            "correct_choice_index": 3
+        },
+        {
+            "id": 62,
+            "text": "Which of the following is the best example of **Distributed Computing**",
+            "topics": [
+                "distributed-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "The client-server model",
+                "An operating system distributing its execution time to multiple processes",
+                "A team of software engineers working remotely across the globe",
+                "Breaking up a computational task so that it can be run on multiple processors"
+            ],
+            "correct_choice_index": 0
+        },
+        {
+            "id": 68,
+            "text": "What does it mean if a program is 'parallelizable'?",
+            "topics": [
+                "parallel-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "It can be compressed into a smaller file",
+                "It can be divided into parts to run simultaneously",
+                "It uses a single thread of execution",
+                "It can be run by multiple users at once"
+            ],
+            "correct_choice_index": 1
+        },
+        {
+            "id": 70,
+            "text": "What happens when too many processors are added to a task with a large serial portion?",
+            "topics": [
+                "parallel-computing",
+                "performance-limits"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "The task finishes instantly",
+                "Only memory usage increases",
+                "Speedup levels off or even decreases",
+                "Speedup increases infinitely"
+            ],
+            "correct_choice_index": 2
+        },
+        {
+            "id": 72,
+            "text": "Which of the following is the best example of **Asynchronous Computing**?",
+            "topics": [
+                "asynchronous-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "A browser loading more messages in the background while you type a response",
+                "An email program running on a web browser",
+                "A complex 3D animation scene being rendered on multiple servers",
+                "A program that searches a file for a particular keyword"
+            ],
+            "correct_choice_index": 0
+        },
+        {
+            "id": 73,
+            "text": "Which of the following best describes **Distributed Computing**?",
+            "topics": [
+                "distributed-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "A computer distributing work over a longer period of time to avoid overheating",
+                "Multiple computers or devices working together over a network to solve a problem",
+                "A single computer splitting a problem into different parts and solving each one on different processors",
+                "Multiple software developers working in different locations on a software project"
+            ],
+            "correct_choice_index": 1
+        },
+        {
+            "id": 75,
+            "text": "Which of the following is the best example of **Sequential Computing**?",
+            "topics": [
+                "sequential-computing"
+            ],
+            "is_ordered": false,
+            "choices": [
+                "A team of software engineers designs one part of a system before designing another part",
+                "Task A starts then pauses to wait for a network connection, allowing task B to start",
+                "Tasks A, B, and C are analyzed to determine the optimal order of execution",
+                "Task A starts and completes before task B can start"
+            ],
+            "correct_choice_index": 3
+        }
+
+    ]
+}
