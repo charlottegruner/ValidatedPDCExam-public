@@ -71,7 +71,7 @@ def questions_from_json_file(filepath):
     return questions
 
 
-questions = questions_from_json_file("question_bank_v0.1.0.json")
+questions = questions_from_json_file("question_bank_v0.1.1.json")
 
 
 pprint.pprint(f"REPORTS")
@@ -81,6 +81,6 @@ topics_unique = set(topics)
 question_topic_count = { t:topics.count(t) for t in topics_unique }
 pprint.pprint(question_topic_count)
 
-random.shuffle(questions)
+#random.shuffle(questions)
 for q in questions:
    print(q)
