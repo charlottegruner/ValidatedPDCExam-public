@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="multichoice">
+    <name>
+      <text>5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In _________ computing a program's statements are run in order, one at a time.</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>sequential</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>shared-memory</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>core</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>parallel</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Why is synchronization important in parallel computing?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>To make sure memory is not overloaded</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>To install updates faster</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>To compress data during computation</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>To prevent conflicts when multiple processors access shared data</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Suppose you run a program on one core and it takes 6 minutes. Then you run it on 3 cores and it takes 3 minutes. What is the speedup?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>1</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>2</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>3</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>6</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Cannot be determined from the information given</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>None of the above</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>10</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Suppose that a computational task that normally takes 60 minutes to execute can be broken up into equal parts and run in parallel on 16 different processors. About how long would it take to compute?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>1 minute</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>4 minutes</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>16 minutes</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>16 hours</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>12</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What type of computing involves multiple computers solving a problem by working together over a network?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Single-threaded computing</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Distributed computing</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Serial computing</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Centralized computing</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>13</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following best describes Sequential Computing?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Two computational tasks being run at the same time on different processors.</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Computational tasks are scheduled to execute in an optimal order.</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Each computational task is executed from start to finish before another task can start.</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Computational tasks are assigned to different computers so they can all be run independently.</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>16</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the main objective of parallel computing?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Reduce power consumption</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Improve computation speed by executing tasks simultaneously</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Increase software complexity</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Reduce the number of processors required</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>19</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following best illustrates **Asynchronous Computing**?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Task A runs in one window while task B runs in a different window</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Task A runs and once completed, then task B runs</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Task A runs for a while, then pauses and allows Task B to execute, then resumes once Task B has completed</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Tasks A and B run on different computers at the same time</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>20</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following best illustrates **Parallel Computing**?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Task A runs on computer X while Task B runs on computer Y, once both have completed, they report their results back to computer Z</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Task B runs after Task A has been completed</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Task A runs on Processor X at the same time as Task B runs on Processor Y</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Task A runs for a while, then pauses and allows Task B to execute, then resumes once Task B has completed</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>26</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Consider the following task in a program: Each element of an array stores the price for the inventory of a store.  It is necessary for the store to add 9% to the price of each item.  Is this a task that can be parallelized?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>No, processors could access the same memory but not in this case</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Yes, different processors could operate on different parts of the array at the same time</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>No, processors cannot share the same memory</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Yes, copies of the array could be distributed to each processor</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>27</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following best describes a distributed system? </p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A single computer with multiple cores</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A computer with many users</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>A network of computers working together</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A system using multiple monitors</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>29</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is one major benefit of parallel computing?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Lower electricity usage</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Easier debugging</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Increased computation speed</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Faster data transfer speed</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>30</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is an *event* in the context of event-driven programming?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A block of code that runs continuously in a loop</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A specific programming language used for web-development</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>A signal that something has happened such as a user clicking a mouse</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A type of variable used to store numerical data</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>35</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following best describes **Asynchronous Computing**?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>A task can begin executing without waiting for other tasks to finish, and may be resumed later</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Multiple tasks are executed simultaneously using multiple processors</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Tasks are executed one at a time, waiting for each to finish before starting the next</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>All tasks must be completed in the order they were started</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>36</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following best describes **Parallel Computing**</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A task is paused until all other tasks have completed</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>One task runs while others wait their turn to execute</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Tasks are broken into smaller sub-tasks that are processed at the same time using multiple processors or cores</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Tasks are executed one at a time on a single processor in a fixed sequence</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>37</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>_______ computing is writing software that takes advantage of a multiprocessor's ability to do processing on multiple cores simultaneously.</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Core</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Parallel</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Shared-memory</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Sequential</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>41</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is a distributed system?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A type of computer virus</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A system with only one processor</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A system with multiple CPUs sharing the same memory</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>A collection of independent computers that appear as a single system</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>45</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>________ computing is when a problem is divided into smaller parts that are executed on multiple networked computers.</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Parallel</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Distributed</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Multicore</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Concurrent</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>46</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following best describes **Distributed Computing**</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Tasks run in the background without blocking the main program</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A single computer with multiple cores runs multiple tasks at the same time</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A single task is executed sequentially on one machine</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>A task is divided and executed across multiple networked computers that communicate and coordinate with each other</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>48</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>___________ computing involves a single processor rapidly switching between tasks, giving the illusion of simultaneous execution.</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Distributed</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Shared-memory</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Concurrent</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Parallel</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>49</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following could be considered a parallel task?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Reading a single book</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Sending a series of emails</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Grading multiple exams at once with different people</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Typing on a keyboard</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>50</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Suppose we run a computational task in parallel on 32 different processors, each taking 2 minutes to run.  If we were to run the same task in serial, about how long would it take to compute?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>2 minutes</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>16 minutes</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>1 hour</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>64 hours</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>54</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>In distributed computing, how are the computing nodes typically connected?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Through a network connection</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Using a single shared CPU</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>By physical proximity only</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Through the same memory bus</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>57</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is a challenge in distributed computing?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Data compression</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Network latency</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Low memory usage</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Faster processor speeds</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>58</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is a common goal of parallel programming?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Increasing the complexity of code</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Reducing the number of algorithms</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Using more memory to store backups</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Making computations faster by using multiple processors</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>62</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is the best example of **Distributed Computing**</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>The client-server model</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>An operating system distributing its execution time to multiple processes</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A team of software engineers working remotely across the globe</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Breaking up a computational task so that it can be run on multiple processors</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>68</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does it mean if a program is 'parallelizable'?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>It can be compressed into a smaller file</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>It can be divided into parts to run simultaneously</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>It uses a single thread of execution</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>It can be run by multiple users at once</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>70</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens when too many processors are added to a task with a large serial portion?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>The task finishes instantly</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Only memory usage increases</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Speedup levels off or even decreases</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Speedup increases infinitely</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>72</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is the best example of **Asynchronous Computing**?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>A browser loading more messages in the background while you type a response</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>An email program running on a web browser</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A complex 3D animation scene being rendered on multiple servers</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A program that searches a file for a particular keyword</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>73</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following best describes **Distributed Computing**?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A computer distributing work over a longer period of time to avoid overheating</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Multiple computers or devices working together over a network to solve a problem</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A single computer splitting a problem into different parts and solving each one on different processors</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Multiple software developers working in different locations on a software project</p>]]></text>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>75</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is the best example of **Sequential Computing**?</p>]]></text>
+    </questiontext>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>A team of software engineers designs one part of a system before designing another part</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Task A starts then pauses to wait for a network connection, allowing task B to start</p>]]></text>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[<p>Tasks A, B, and C are analyzed to determine the optimal order of execution</p>]]></text>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[<p>Task A starts and completes before task B can start</p>]]></text>
+    </answer>
+  </question>
+</quiz>
